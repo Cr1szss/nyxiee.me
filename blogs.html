@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyxie's Personal Website - Blogs</title>
+
     <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F57825361440243db4a4b7830%2F1682650766391-6Z7QETHBUD0A9JQLEKH4%2FLainAt20_Getty_PioneerLDC_Ringer.jpeg&f=1&nofb=1&ipt=f54598fceb5dc0933ea12c39cd14fd63a0f88ba7853dc56781aec62ad96771f0" type="image/jpeg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nordic/0.1.0/nordic.min.css">
+
     <style>
-        /* Custom styles */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
         html, body {
             margin: 0;
             padding: 0;
-            overflow-x: auto; /* Ensure horizontal scrollbars appear */
-            background-color: #1c1b1d; /* Darker background to match image tones */
-            color: #f1c6d0; /* Lighter text color */
-            font-family: JetBrains Mono light, monospace;
+            overflow-x: auto;
+            background-color: #1c1b1d;
+            color: #ac3232;
+            font-family: "Press Start 2P", monospace;
+            line-height: 1.6;
+            -webkit-font-smoothing: none;
+            text-rendering: geometricPrecision;
         }
+
         main {
             width: 100%;
             max-width: 73.5rem;
@@ -23,90 +31,85 @@
             padding: 20px;
             box-sizing: border-box;
         }
+
         header {
             background-color: #1c1b1d;
-            color: #f1c6d0;
             text-align: center;
             width: 100%;
         }
+
         nav {
-            background-color: #1c1b1d;
             padding: 10px 0;
             text-align: center;
             word-spacing: -50px;
         }
+
         nav a {
-            color: #f1c6d0;
+            color: #ebd9bc;
             text-decoration: none;
             padding: 10px 20px;
-            font-weight: 500;
             transition: color 0.3s, text-shadow 0.3s;
         }
+
         nav a:hover {
-            color: #e5a7c0; /* Slightly warmer hover color */
-            font-weight: 1000;
-            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
+            color: #ebd9bc;
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8);
         }
+
+        .bold {
+            text-decoration: underline;
+        }
+
         .container {
             margin: 20px 0;
             background-color: #1c1b1d;
             padding: 10px;
         }
-        footer {
-            background-color: #1c1b1d;
-            color: #f1c6d0;
-            padding: 10px 0;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+
+        h2 {
+            font-size: xx-large;
+            color: #ac3947;
         }
+
+        p {
+            font-size: large;
+            margin-bottom: 15px;
+        }
+
         a {
-            color: #f1c6d0;
+            color: #ebd9bc;
             text-decoration: none;
-            font-weight: 500;
         }
+
         a:hover {
-            color: #e5a7c0;
-            font-weight: 1000;
-            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8);
         }
-        h1, h2, h3, p {
-            text-align: left;
-            color: #f1c6d0;
-            font-size: x-large;
-        }
+
         .indent1 {
             margin-left: -50px;
         }
-        h2 {
-            font-size: xx-large;
-            color: #e5a7c0; /* Lighter pink tone for emphasis */
-        }
-        .bold {
-            text-decoration: underline;
-        }
-        .indent2 {
-            margin-left: 300px;
-        }
     </style>
 </head>
-<main class="width">
-    <body>
-        <header>
-            <h1>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="desktop.html">Desktop</a>
-                    <a href="blogs.html" class="bold">Blogs</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </h1>
-        </header>
-        <h1 class="container">
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="desktop.html">Desktop</a>
+            <a href="blogs.html" class="bold">Blogs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
             <h2 class="indent1">Blogs:</h2>
-            <p>#1 <a href="blog1.html">Exploring the surreal world of ENA</a></p>
-        </h1>
-    </body>
-</main>
+
+            <p>
+                #1
+                <a href="blog1.html">Exploring the surreal world of ENA</a>
+            </p>
+        </section>
+    </main>
+</body>
 </html>
