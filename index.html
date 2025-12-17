@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyxie's Personal Website - Index</title>
+
     <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F57825361440243db4a4b7830%2F1682650766391-6Z7QETHBUD0A9JQLEKH4%2FLainAt20_Getty_PioneerLDC_Ringer.jpeg&f=1&nofb=1&ipt=f54598fceb5dc0933ea12c39cd14fd63a0f88ba7853dc56781aec62ad96771f0" type="image/jpeg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nordic/0.1.0/nordic.min.css">
+
     <style>
-        /* Custom styles */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+
+    <style>
         html, body {
             margin: 0;
             padding: 0;
-            overflow-x: auto; /* Ensure horizontal scrollbars appear */
-            background-color: #1c1b1d; /* Darker background to match image tones */
-            color: #f1c6d0; /* Lighter text color */
-            font-family: JetBrains Mono light, monospace;
+            overflow-x: auto;
+            background-color: #1c1b1d;
+            color: #ac3232;
+            font-family: "Press Start 2P", monospace;
+            line-height: 1.6;
+            -webkit-font-smoothing: none;
+            text-rendering: geometricPrecision;
         }
+
         main {
             width: 100%;
             max-width: 73.5rem;
@@ -23,35 +33,39 @@
             padding: 20px;
             box-sizing: border-box;
         }
+
         header {
             background-color: #1c1b1d;
-            color: #f1c6d0;
             text-align: center;
             width: 100%;
         }
+
         nav {
-            background-color: #1c1b1d;
             padding: 10px 0;
             text-align: center;
             word-spacing: -50px;
         }
+
         nav a {
-            color: #f1c6d0;
+            color: #ebd9bc;
             text-decoration: none;
             padding: 10px 20px;
             font-weight: 500;
             transition: color 0.3s, text-shadow 0.3s;
+            
         }
+
         nav a:hover {
-            color: #e5a7c0; /* Slightly warmer hover color */
-            font-weight: 1000;
-            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
+            color: #ebd9bc;
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8);
         }
+
         .container {
             margin: 20px 0;
             background-color: #1c1b1d;
             padding: 10px;
         }
+
         footer {
             background-color: #1c1b1d;
             color: #f1c6d0;
@@ -61,51 +75,85 @@
             bottom: 0;
             width: 100%;
         }
+
         a {
-            color: #f1c6d0;
+            color: #1c070c ;
             text-decoration: none;
             font-weight: 500;
         }
+
         a:hover {
-            color: #e5a7c0;
-            font-weight: 1000;
-            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
+            color: #1c070c;
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8);
         }
+
         h1, h2, h3, p {
-            text-align: left;
-            color: #f1c6d0;
+            color: #ac3232;
+        }
+
+        h1 {
             font-size: x-large;
         }
+
+        h2 {
+            font-size: xx-large;
+            color: #ac3947;
+        }
+
+        p {
+            font-size: large;
+        }
+
         .indent1 {
             margin-left: -50px;
         }
-        h2 {
-            font-size: xx-large;
-            color: #e5a7c0; /* Lighter pink tone for emphasis */
-        }
+
         .bold {
             text-decoration: underline;
         }
     </style>
 </head>
-<main class="width">
-    <body>
-        <header>
-            <h1>
-                <nav>
-                    <a href="index.html" class="bold">Home</a>
-                    <a href="desktop.html">Desktop</a>
-                    <a href="blogs.html">Blogs</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </h1>
-        </header>
-        <h1 class="container">
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="bold">Home</a>
+            <a href="desktop.html">Desktop</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
             <h2 class="indent1">Welcome to my personal website!</h2>
-            <p>Hello there, my name is Nyx. I'm genderfluid and use 'they/them' pronouns. Additionally, I am an aspiring game developer with a strong belief in the importance of privacy, open-source software, and equality for all. I am proficient in HTML, C++, Golang, and GDScript. I also have a deep appreciation for anime, considering works like Serial Experiments Lain and Neon Genesis Evangelion as significant pieces of art. Furthermore, I am an avid user of GNU/Linux, specifically Arch Linux.</p> 
-        
-            <p>The main purpose of this website is to embrace the original purpose of the World Wide Web: a decentralized space where individuals have their own personal websites instead of relying on ~5 platforms to share their opinions. This website reflects my desktop environment, serving as my personal platform for discussing topics such as politics, game development, philosophy, and more. It employs a custom-made Serial Experiments Lain inspired theme, furthermore mirroring the aesthetic of my desktop.</p>
-        </h1>
-    </body>
-</main>
+
+            <p>
+                Hello there, my name is Nyx. I'm genderfluid and use
+                <em>they/them</em> pronouns. Additionally, I am an aspiring
+                game developer with a strong belief in the importance of
+                privacy, open-source software, and equality for all. I am
+                proficient in HTML, C++, Golang, and GDScript. I also have a
+                deep appreciation for anime, considering works like
+                <em>Serial Experiments Lain</em> and
+                <em>Neon Genesis Evangelion</em> as significant pieces of art.
+                Furthermore, I am an avid user of GNU/Linux, specifically
+                Arch Linux.
+            </p>
+
+            <p>
+                The main purpose of this website is to embrace the original
+                purpose of the World Wide Web: a decentralized space where
+                individuals have their own personal websites instead of
+                relying on ~5 platforms to share their opinions. This website
+                reflects my desktop environment, serving as my personal
+                platform for discussing topics such as politics, game
+                development, philosophy, and more. It employs a custom-made
+                <em>Milk outside of a bag of milk </em>inspired theme, mirroring the
+                aesthetic of my desktop.
+            </p>
+        </section>
+    </main>
+
+</body>
 </html>
